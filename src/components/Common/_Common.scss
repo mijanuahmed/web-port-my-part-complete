@@ -1,0 +1,149 @@
+.mission {
+  display: flex;
+  align-items: center;
+  gap: 5em;
+  margin-left: 25em;
+  margin-right: 25em;
+}
+@media screen and (max-width: 768px) {
+  .mission {
+    margin-left: 0em;
+    margin-right: 0em;
+    flex-direction:column;
+  }
+}
+
+.common-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap:2.5em;
+}
+
+@media screen and (max-width: 768px) {
+  .common-description {
+    padding-left: 1em;
+    margin-bottom: 1.5em;
+  }
+}
+
+
+
+.common-description h2 {
+  color: #1d92ed;
+  font-size: 3em;
+  font-weight: 600;
+
+}
+.common-description h3 {
+  color: #222330;
+  font-size: 3em;
+  font-weight: 600;
+
+}
+.common-description p {
+  color: #222330;
+  font-size: 1.6em;
+}
+.common-button {
+  width: 140px;
+  height: 45px;
+  background: #1d92ed;
+  padding: 0.5em;
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 1.3em;
+  cursor: pointer;
+}
+.common-button:hover {
+  background: #0467fb;
+}
+
+@media screen and (max-width: 768px) {
+  .common-button {
+    width: 200px;
+    height: 60px;
+    font-size: 1.6em;
+    padding: 0 10px;
+  }
+}
+
+.vision {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20em;
+  margin-left: 25em;
+  margin-right: 25em;
+}
+@media screen and (max-width: 768px) {
+  .vision {
+    margin-left: 0em;
+    margin-right: 0em;
+    flex-direction:column;
+    gap: 5em;
+  }
+}
+
+.vision-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 1rem;
+  gap:2.5em;
+
+
+}
+
+@media screen and (max-width: 768px) {
+  .vision-description {
+    padding-left: 1em;
+  }
+}
+
+.vision-description h2 {
+  color: #1d92ed;
+  font-size: 3em;
+  font-weight: 600;
+ 
+}
+.vision-description h3 {
+  color: #222330;
+  font-size: 3em;
+  font-weight: 600;
+
+}
+.vision-description p {
+  color: #222330;
+  font-size: 1.6em;
+}
+
+.vision-img {
+  max-width: 160%;
+  max-height: 160%;
+}
+@media screen and (max-width: 768px) {
+  .vision-img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+}
+
+.mission-img {
+
+  max-width: 125%;
+  max-height: 125%;
+}
+
+@media screen and (max-width: 768px) {
+  .mission-img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+}
+
